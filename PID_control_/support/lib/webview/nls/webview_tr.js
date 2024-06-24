@@ -1,0 +1,4 @@
+//>>built
+define("webview/nls/webview_tr",{"webview/nls/modelviewer":{ModelBrowserButtonLabel:"Hide/Show Model Browser",ExplorerBarButtonLabel:"Hide/Show Explorer Bar",OpenInNewTab:"Open In New Tab",MarqueeZoomButtonLabel:"Zoom",NoExport:"This system was not exported.",ViewAll:"View All",FitToViewButtonLabel:"Fit to View",Open:"Open"},"webview/nls/modelinspector":{ParameterAttributes:"Parameter Attributes"},"dijit/nls/loading":{loadingState:"Y\u00fckleniyor...",errorState:"\u00dczg\u00fcn\u00fcz, bir hata olu\u015ftu"},
+"webview/nls/modelbrowser":{Open:"Open",OpenInNewTab:"Open In New Tab",Title:"Model Browser"},"dijit/nls/common":{buttonOk:"Tamam",buttonCancel:"\u0130ptal",buttonSave:"Kaydet",itemClose:"Kapat"}});
+//@ sourceMappingURL=webview_tr.js.map

@@ -1,0 +1,4 @@
+//>>built
+define("webview/nls/webview_fi-fi",{"webview/nls/modelviewer":{ModelBrowserButtonLabel:"Hide/Show Model Browser",ExplorerBarButtonLabel:"Hide/Show Explorer Bar",OpenInNewTab:"Open In New Tab",MarqueeZoomButtonLabel:"Zoom",NoExport:"This system was not exported.",ViewAll:"View All",FitToViewButtonLabel:"Fit to View",Open:"Open"},"webview/nls/modelinspector":{ParameterAttributes:"Parameter Attributes"},"dijit/nls/loading":{loadingState:"Lataus on meneill\u00e4\u00e4n...",errorState:"On ilmennyt virhe."},
+"webview/nls/modelbrowser":{Open:"Open",OpenInNewTab:"Open In New Tab",Title:"Model Browser"},"dijit/nls/common":{buttonOk:"OK",buttonCancel:"Peruuta",buttonSave:"Tallenna",itemClose:"Sulje"}});
+//@ sourceMappingURL=webview_fi-fi.js.map

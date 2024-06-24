@@ -1,0 +1,4 @@
+//>>built
+define("webview/nls/webview_pl",{"webview/nls/modelviewer":{ModelBrowserButtonLabel:"Hide/Show Model Browser",ExplorerBarButtonLabel:"Hide/Show Explorer Bar",OpenInNewTab:"Open In New Tab",MarqueeZoomButtonLabel:"Zoom",NoExport:"This system was not exported.",ViewAll:"View All",FitToViewButtonLabel:"Fit to View",Open:"Open"},"webview/nls/modelinspector":{ParameterAttributes:"Parameter Attributes"},"dijit/nls/loading":{loadingState:"\u0141adowanie...",errorState:"Niestety, wyst\u0105pi\u0142 b\u0142\u0105d"},
+"webview/nls/modelbrowser":{Open:"Open",OpenInNewTab:"Open In New Tab",Title:"Model Browser"},"dijit/nls/common":{buttonOk:"OK",buttonCancel:"Anuluj",buttonSave:"Zapisz",itemClose:"Zamknij"}});
+//@ sourceMappingURL=webview_pl.js.map
