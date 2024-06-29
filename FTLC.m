@@ -1,5 +1,5 @@
 %funcion de transferencia a lazo cerrado
-clc;close all; clear all;
+clc;close all;
 s=tf('s');
 
 %obtenemos la funcion de transferencia de nuestro sistema
