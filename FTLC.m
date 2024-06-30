@@ -1,4 +1,4 @@
-%funcion de transferencia a lazo cerrado del siste
+%funcion de transferencia a lazo cerrado del sistem
 clc;close all;
 s=tf('s');
 
