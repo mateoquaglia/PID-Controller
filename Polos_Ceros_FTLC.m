@@ -1,16 +1,16 @@
-% Coeficientes del numerador
+% Coeficientes del numerador simulados
 num = [0.1648, 3.156, 0.1433, 0.0007678];
 
 % Coeficientes del denominador
 den = [648.2, 1.245e04, 1129, 71.34, 2.079, 0.01041];
 
-% Crear la función de transferencia
+% Crear la funciÃ³n de transferencia
 sys = tf(num, den);
 
-% Encontrar los ceros de la función de transferencia
+% Encontrar los ceros de la funciÃ³n de transferencia
 ceros = zero(sys);
 
-% Encontrar los polos de la función de transferencia
+% Encontrar los polos de la funciÃ³n de transferencia
 polos = pole(sys);
 
 % Imprimir los ceros y polos
