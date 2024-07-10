@@ -1,16 +1,16 @@
-% Parametros del sistema
+% Parametros del sistema 
 voltajes = 1:0.5:10;  % Voltajes de 1V a 10V con paso de 0.5V
-volumenes_control = [0.5, 1.5];  % Vol鷐enes de control en litros
+volumenes_control = [0.5, 1.5];  % Vol煤menes de control en litros
 
 % inicializacion de la matriz de tiempos de llenado
 tiempos_llenado = zeros(length(voltajes), 4, length(volumenes_control));
 
-% simulaci髇 para caracterizar la electrov醠vula
+% simulaci贸n para caracterizar la electrov谩lvula
 for i = 1:length(voltajes);
     for j = 1:length(volumenes_control);
         volumen_control = volumenes_control(j);
         
-        % Realizo simulaci髇 del tiempo de llenado para cada voltaje y volumen de control
+        % Realizo simulaci贸n del tiempo de llenado para cada voltaje y volumen de control
         tiempos_medidos = simular_tiempo_llenado(voltajes(i), volumen_control);
         
         % Almaceno los tiempos medidos
@@ -29,12 +29,12 @@ for j = 1:length(volumenes_control);
     plot(voltajes, squeeze(tiempos_promedio(:, j)), '.-');
     xlabel('Voltaje de entrada (V)');
     ylabel('Tiempo promedio de llenado (s)');
-    title(['Caracterizaci髇 de la Electrov醠vula - Volumen de Control ', num2str(volumenes_control(j)), ' L']);
+    title(['Caracterizaci贸n de la Electrov谩lvula - Volumen de Control ', num2str(volumenes_control(j)), ' L']);
     grid on;
 end
 % con Q y los voltajes calculo FT
 V = [1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 6.5 7 7.5 8 8.5 9 9.5 10];
 Q = [0.0148 0.0142 0.0133 0.0135 0.0132 0.0128 0.0148 0.0143 0.0143 0.0146 0.0128 0.0142 0.0145 0.0148 0.0137 0.0120 0.0143 0.0152 0.0138];
-% Estimar la funci髇 de transferencia
+% Estimar la funci贸n de transferencia
 data1 = iddata(Q', V', 1);
 tf = tfest(data1, 1, 0)
