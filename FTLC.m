@@ -17,7 +17,7 @@ FT= ((Fv * Ft)/(1+(Fv *Ft * Fs)))
 FT_simplificada = minreal(FT);
 
 
-%analisis en frecuencia de FT
+%analisis en frecuencia de FTL
 bode(FT);
 %respuesta al impulso
 impulse(FT);
