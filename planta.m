@@ -12,5 +12,5 @@ disp(['La resistencia hidráulica calculada con la ley de Poiseuille es: ' num2s
 numerator = R_poiseuille;
 denominator = [R_poiseuille * C, 1];
 
-sys = tf(numerator, denominator)
+sys = tf(numerator, denominator) 
 
