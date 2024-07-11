@@ -11,7 +11,7 @@ Ft=((25.46)/(25.46*s+1))
 %sensor de nivel 
 Fs=((240.7)/(s+19.11))
 
-%por teorema de circuitos retroalimentados y simplificacion obtenemos
+%por teorema de circuitos retroalimentados y simplificacion obtenemos 
 
 FT= ((Fv * Ft)/(1+(Fv *Ft * Fs)))
 FT_simplificada = minreal(FT);
