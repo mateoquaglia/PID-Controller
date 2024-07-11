@@ -4,7 +4,7 @@ s=tf('s');
 
 %obtenemos la funcion de transferencia de nuestro sistema
 
-%electrovalvula
+%electrovalvula 
  Fv=(2.542e-4)/(s+0.006208)
 %tanque
 Ft=((25.46)/(25.46*s+1))
