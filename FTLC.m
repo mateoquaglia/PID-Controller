@@ -8,7 +8,7 @@ s=tf('s');
  Fv=(2.542e-4)/(s+0.006208)
 %tanque
 Ft=((25.46)/(25.46*s+1))
-%sensor de nivel
+%sensor de nivel 
 Fs=((240.7)/(s+19.11))
 
 %por teorema de circuitos retroalimentados y simplificacion obtenemos
