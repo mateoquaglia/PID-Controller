@@ -1,6 +1,6 @@
 
 L = 1;       % simulo la longitud del tubo en metros  
-mu = 0.001;  % viscosidad dinamica del fluido 
+mu = 0.001;  % viscosidad dinamica del fluido  
 r = 0.1;     % radio del tubo en metros
 C = 1;       % area transversal del tanque
 % aplicamos la ley de Poiseuille para calcular R 
