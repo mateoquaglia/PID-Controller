@@ -6,7 +6,7 @@ C = 1;       % area transversal del tanque
 % aplicamos la ley de Poiseuille para calcular R  
 R_poiseuille = (8 * mu * L) / (pi * r^4);
 
-disp(['La resistencia hidráulica calculada con la ley de Poiseuille es: ' num2str(R_poiseuille) ' Pa·s/m^3']);
+disp(['La resistencia hidráulica calculada con la ley de Poiseuille es: ' num2str(R_poiseuille) ' Pa·s/m^3']); 
 
 % funcion de transferencia H(s)/Qi(s)
 numerator = R_poiseuille;
